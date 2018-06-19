@@ -97,28 +97,21 @@
 		</section>
 		<footer class="footer">
 			<div class="container">
-				<p>2016 - 2018 &copy; Mateusz Szumiela. Programista zaprasza do współpracy! <i class="fa fa-envelope" aria-hidden="true"></i> mszumiela@gmail.com</p>
+				<p>
+					2016 - 2018 &copy; Mateusz Szumiela. Programista zaprasza do współpracy! <i class="fa fa-envelope" aria-hidden="true"></i> mszumiela@gmail.com
+					<button class="counterButton" onclick="hideCounter()"></button>
+					<div id="hiddenCounter" style="display: none;">
+						<strong>Licznik odwiedzin:</strong>
+						<!-- www.DarmowyLicznik.pl -->
+						<div class="image-rotator"><div class="rotator-slide" id="rotator-slide-1"><a href="https://www.darmowylicznik.pl/" title="Przejd� na stron� licznika" target="_blank"><img src="https://www.darmowylicznik.pl/licznik.php?id=134820" alt="Darmowy licznik odwiedzin" style="border:0px;" /></a></div></div>
+						<!-- END www.DarmowyLicznik.pl -->
+					</div>
+				</p>
 			</div>
 		</footer>
 		<script src="js/jquery.js"></script>
 		<script src="js/stickyfill.js"></script>
-		<script>
-			$('.nav').Stickyfill();
-
-			$(function() {
-			  $('a[href*="#"]:not([href="#"])').click(function() {
-			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			      var target = $(this.hash);
-			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			      if (target.length) {
-			        $('html,body').stop().animate({
-			          scrollTop: target.offset().top - 70
-			        }, 1000);
-			        return false;
-			      }
-			    }
-			  });
-			});
-		</script>
+		<script src="js/hideCounter.js"></script>
+		<script src="js/stickyFillScroll.js"></script>
 	</body>
 </html>

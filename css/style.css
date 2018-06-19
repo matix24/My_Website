@@ -136,6 +136,16 @@ a:visited.icon-cv {color: #A9A9A9;}*/
 
 /*end social links*/
 
+/* hidden button to guest counter */
+.counterButton {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	text-decoration: none;
+	padding: 0px;
+	border: 0px;
+}
+
 .footer {
 	padding: 30px;
 }
