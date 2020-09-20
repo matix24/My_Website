@@ -15,7 +15,7 @@ My e-business card.
 
 ### Demo Live
 
-* URL: http://szumiela.com.pl/
+* URL: http://old2.szumiela.com.pl/
 
 ## Author
 
